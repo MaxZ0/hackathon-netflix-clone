@@ -1,47 +1,74 @@
-.card{
-  margin-top: 30px;
+body {
+  background-color: black;
 }
 
-.button.is-dark{
+.navbar {
+  background-color: black;
+  font-weight: bolder;
+}
+
+.navbar-item {
+  color: #E50914;
+  font-size: 2em;
+}
+
+
+.card {
+  margin-top: 30px;
+  width: 350px;
+}
+
+.columns {
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.is-4by3 {
   width: 100%;
 }
 
-.title{
+
+.button.is-dark {
+  width: 100%;
+}
+
+.title {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
-.card{
+.card {
   text-align: center;
   padding: 10px;
 }
 
 
-.anImage{
+.anImage {
   width: 18px;
   margin-left: 16px;
   margin-top: 4px;
 }
 
 .background-photo {
-          position: absolute;
-          top: 0;
-          left: 0;
-          right: 0;
-          bottom: 0;
-          background-position: bottom;
-          background-repeat: no-repeat;
-          background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.error{
+.error {
   color: red;
   display: none;
 }
 
 
-.scheduleContent{
+.scheduleContent {
   display: none;
 }
 
@@ -50,6 +77,10 @@
   font-size: 1.25rem;
   font-weight: 400;
   line-height: 1.25;
-  background-color: rgba(255,255,255,0.6);
+  background-color: rgba(255, 255, 255, 0.6);
   padding: 20px;
+}
+
+.fas {
+  flex-wrap: wrap;
 }

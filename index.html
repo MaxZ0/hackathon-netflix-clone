@@ -1,19 +1,21 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.8.0/css/bulma.min.css" />
   <link rel="stylesheet" href="css/styles.css" />
   <title>Netflix clone</title>
 </head>
+
 <body>
   <nav class="navbar" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
       <a class="navbar-item logo" href="https://bulma.io">
-        HOMEFLIX
+        FirstPrise
       </a>
 
       <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
@@ -25,22 +27,24 @@
   </nav>
   <section class="section">
     <div class="container">
-        <div class="columns">
-          <div class="column is-10">
-            <input class="input is-primary" type="text" placeholder="Search for a show by name" id="searchQuery">
-          </div>
-          <div class="column is-2">
-            <button class="button is-info" id="search">
-              Search
-              <span>
-                <img class="anImage" src="https://lh3.googleusercontent.com/proxy/6zOSyGcN103Pgk42EbQ8phk3TNz3IH02yjKmwQUeSVofn6n5iodaQXiUUxWv3A8N6uCoox6U2cyWPCumYRsOEjNJqS9NA71PmdYbZKQF5ogSEfuMOgJ22cbdfipH6w" />
-              </span>
-            </button>
-          </div>
+      <div class="columns">
+        <div class="column is-10">
+          <input class="input is-primary" type="text" placeholder="Search for a show by name" id="searchQuery">
         </div>
-        <div class="columns is-multiline is-mobile" id="contentContainer">
+        <div class="column is-2">
+          <button class="button is-info" id="search">
+            Search
+            <span>
+              <img class="anImage"
+                src="https://lh3.googleusercontent.com/proxy/6zOSyGcN103Pgk42EbQ8phk3TNz3IH02yjKmwQUeSVofn6n5iodaQXiUUxWv3A8N6uCoox6U2cyWPCumYRsOEjNJqS9NA71PmdYbZKQF5ogSEfuMOgJ22cbdfipH6w" />
+            </span>
+          </button>
+        </div>
+      </div>
 
-        </div>
+      <div class="columns is-multiline is-mobile" id="contentContainer">
+
+      </div>
     </div>
   </section>
   <footer class="footer">
@@ -50,4 +54,5 @@
   </footer>
   <script src="./js/script.js"></script>
 </body>
+
 </html>
